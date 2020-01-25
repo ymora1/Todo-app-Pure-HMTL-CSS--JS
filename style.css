@@ -7,7 +7,7 @@
 }
 
 .container {
-  background: #efefef;
+  background: grey;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 .todos li {
   padding: 1em;
   margin-top: 0.8em;
-  background-color: #fefefe;
+  background-color: black;
   font-size: 0.8em;
   text-align: center;
   cursor: pointer;
@@ -62,10 +62,10 @@
 }
 
 .pendings li {
-  color: green;
+  color: red;
 }
 
 .completed li {
-  color: red;
+  color: yellow;
   text-decoration: line-through;
 }
