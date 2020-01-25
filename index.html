@@ -17,26 +17,21 @@
       <div class="header">
         <h1 class="title">My Todo Application</h1>
         <div class="form">
-          <input type="text" placeholder="New Todo" />
-          <button>Add</button>
+          <input id="newText" type="text" placeholder="New Todo" />
+          <button id="newBtn">Add</button>
         </div>
       </div>
       <div class="todos">
         <div class="pendings">
           <h3>Pendings</h3>
-          <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-          </ul>
+          <ul id="pendingList"></ul>
         </div>
         <div class="completed">
           <h3>Completed</h3>
-          <ul>
-            <li>Item 3</li>
-            <li>Item 4</li>
-          </ul>
+          <ul id="completedList"></ul>
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
